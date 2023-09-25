@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main {
+    background-color: #343b88f1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+#part1 {
+    height: 100%;
+    width: 25%;
+    /* background-color: aquamarine; */
+
+}
+
+#part2 {
+    height: 100%;
+    width: 65%;
+    /* background-color: blueviolet; */
+    background-image: url(https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 4, 7, 0.361);
+}
+
+#part3 {
+    height: 100%;
+    width: 10%;
+    /* background-color:blue; */
+}
+
+#text {
+    /* height: 200px; */
+    width: 300px;
+    /* background-color: aliceblue; */
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    /* transform: translate(0,-50%); */
+
+}
+
+#text>h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 777;
+    line-height: 65px;
+    color: rgba(240, 248, 255, 0.76);
+    letter-spacing: 2px;
+
+}
+
+#small-img {
+    height: 400px;
+    width: 250px;
+    /* background-color: black; */
+    position: absolute;
+    top: 25%;
+    right: 7%;
+    /* transform: translate(0,-25%); */
+    background-image: url(https://images.unsplash.com/photo-1523264766116-1e09b3145b84?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzZ8fG1vZGVsfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: center;
+}
+
+#overlay-img {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 4, 7, 0.205);
+}
+
+#vertical-text {
+    position: absolute;
+    right: -51%;
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+    /* width: 100%;
+    background-color: aquamarine; */
+}
+
+#vertical-text h1 {
+    font-size: 70px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: transparent;
+    /* text-transform: uppercase; */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(245, 245, 245, 0.356);
+    letter-spacing:5px;
+
+    
+
+}
+#nav{
+    position: absolute;
+    display: flex;
+    width:300px;
+    /* background-color: rgb(14, 214, 214); */
+    justify-content: space-between;
+    align-items: center;
+    left: 7%;
+    top: 5%;
+
+}
+#nav img{
+    height: 60px;
+    
+}
+#nav h5{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(240, 248, 255, 0.614);
+}
